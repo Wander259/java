@@ -1,0 +1,12 @@
+package b;
+public class annotation {    //注释
+    public static void main(String[] args) {
+        //单行注释快捷键 CTRL+/
+        //多行注释快捷键 CTRL+SHIFT+/             /*  注释内容*/
+        // 文档注释  /**
+        // 用javadoc命令生成说明文档，生成后通常是一个html（网页）格式
+        System.out.println("RNG");
+        System.out.println("RNG");
+        System.out.println("RNG");
+    }
+}
