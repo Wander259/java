@@ -1,0 +1,13 @@
+package a; //导包 与在 idea中创建的包名相同
+
+public class HelloWorld{         //声明（定义）一个公开的类 名字叫做HelloWorld 第一个 {和最后一个 }
+      //                              中间的部分叫 类体
+      /*   1.public 不是必须的 可以没有 但有了就不能有其他只含有class的类。且public class定义的文件名需要和.java源文件相同
+           2.一个.java源文件可以有很多个class的定义（例外见1.） 且每个class定义中都可以有类体
+           3.再源文件中只要有一个class的定义就能生成多个class文件
+       */
+    public static void main(String[] args){  //这一行前面的代码成为 main（主）方法 是程序的入口
+        //                                      主方法必须在类体中
+        System.out.println("S12 RNG WIN");
+    }
+}
