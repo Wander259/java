@@ -1,0 +1,13 @@
+package f;
+
+public class Operate { // 运算（字符串）
+    public static void main(String[] args) {
+        // 当‘+’操作中出现字符串时 这个’+‘就变成字符串连接符了  会从左到右逐个执行 出现一个字符串后 之后的‘+’都变成连接符
+        System.out.println(3.7+"abc");  // 输出3.7abc
+        System.out.println("abc"+3.7);   //输出abc3.7
+        System.out.println(1+99+"年好酒"+99+1); //输出100年好酒991
+        int age=18;
+        System.out.println("我今年"+age+"岁");    // age是一个变量 会把age的值拿来用
+        System.out.println("RNG");
+    }
+     }
