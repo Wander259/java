@@ -1,0 +1,13 @@
+package c;
+
+public class Identifier {      //标识符
+    public static void main(String[] args){
+/*                                     标识符
+        标识符：我们有权利自己命名的单词都是标识符 such as：类名，方法名，变量名......
+        命名规则：由数字，字母（大小写）（包括中文），下划线_ ，美元符号$，这些组成
+                 不能由数字开头 标识符中间不能含有空格，开头结尾可以的   */
+        int huang黄=12;
+    System.out.println("RNG");
+    System.out.println(huang黄);
+    }
+}
