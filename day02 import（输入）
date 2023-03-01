@@ -1,0 +1,13 @@
+package e;
+import java.util.Scanner;  // 导包 找到Scanner这个类在哪， 这行idea会帮我们写(鼠标放到Scanner上) 但在文本编辑器中要自己写
+public class input {   //  键盘录入
+    public static void main(String[] args){
+     Scanner a = new Scanner(System.in);    //只有 a 能变    这个输入能进行多次
+      int b=a.nextInt();   //a 为上面定义的名称
+      int c=a.nextInt();
+        System.out.println(b);
+      System.out.println(b+c);
+        System.out.println(a);  //这个是输出不了 会有一段代码出来
+        System.out.println("RNG");
+    }
+}
