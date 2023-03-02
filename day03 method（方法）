@@ -1,0 +1,30 @@
+package i;
+
+public class method {
+
+    public static void main(String[] args) {
+        //方法是程序中最小的执行单元
+        //方法的定义
+       /* 写在main方法外面
+        public static void 方法名(){
+            方法体
+        }
+
+        public static 返回值类型 方法名(数据类型 名称,数据类型1 名称){
+            方法体
+            return 数据（与返回值类型相同）
+        }
+        */
+
+        //方法的调用
+//            方法名()
+//            方法名(参数,参数1)
+
+
+        //方法重载：方法名相同，参数不同（类型，个数，顺序），在同一个类中，与返回值类型无关
+
+    }
+
+
+    //方法写这里
+}
