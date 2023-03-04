@@ -1,0 +1,20 @@
+package write;
+//就近原则 ：谁靠的进 用谁
+// 用this 来指定特定的数据
+//先在同一个包创建一个类
+/*
+public class A{
+    int a; //初始值为0
+    public void method{
+        int a =10;
+        System.out.println(a); //输出为10
+        System.out.println(this.a); //输出结果为0
+    }
+}
+*/
+public class this_ {
+    public static void main(String[] args) {
+        System.out.println("RNG");
+
+    }
+}
