@@ -1,0 +1,19 @@
+package write;
+/*
+定义一个画圆方法
+public class person{
+
+
+}
+public class Cricle{
+
+    public void Draw(){
+        System.out.println("画圆 ");
+    } //Draw方法要在圆里
+}
+*/
+public class encapsulation {  //对象代表什么 就得封装对应的数据，并提供数据对应的行为  （哪个对象发生的事情 方法就要封装到对应的类里）
+    public static void main(String[] args) {
+
+    }
+}
