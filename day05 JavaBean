@@ -1,0 +1,17 @@
+package write;
+/*
+标准的JavaBean类：
+1 类名要见名知意
+2 成员变量要private修饰
+3 至少两个构造方法 一个无参 一个带全部参数
+4每一个成员变量都要提高setXXX() getXXX()
+
+快捷生产方式 alt + Insert //alt + Fn +Insert
+插件 ：PTG 写好成员变量后，右键空白 选择PTG to JavaBean
+*/
+
+public class JavaBean {
+    public static void main(String[] args) {
+        System.out.println("RNG");
+    }
+}
