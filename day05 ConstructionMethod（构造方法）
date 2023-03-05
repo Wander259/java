@@ -1,0 +1,22 @@
+package write;
+/*
+public class A{
+    构造方法格式：
+    修饰符 类名(参数列表){
+    }
+    public A(){   //没自己写会给一个默认的构造方法
+    }
+    public A(int a){  //构造方法可以重载
+
+    }
+}
+*/
+public class ConstructionMethod {
+    public static void main(String[] args) {
+        System.out.println("RNG");
+/*
+        A a = new A();  调用无参构造方法
+        A a1= new A(10);  调用有参构造方法，对成员变量赋值
+*/
+    }
+}
